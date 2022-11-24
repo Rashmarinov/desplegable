@@ -1,0 +1,11 @@
+input{
+    display: none;
+}
+
+.desplegable{
+    display: none;
+}
+
+input:checked ~ .desplegable{
+    display: flex;
+}
