@@ -1,8 +1,37 @@
+html{
+    font-size: 16px;
+}
+
+/* VARIABLES */
+:root{
+    /* colores */
+    --color_verdeBase: #59d9b5;
+    --color_verdeOscuro: #01402e;
+    --color_verdeClaro: #b3f2e0;
+    --color_verdeMuyClaro: #d0f2e9;
+    --color_grisFondo: #FAFCFE;
+
+    /* Margenes */
+    --margen_paddingGeneral: 50px;
+    --margen_paddingBotones: 8px 10px;
+    --margen_separacionSections: 80px;
+
+    /* Fuentes */
+    --fuente_Base: Arial;
+    --fuente_BaseTamanyo: 1rem;
+    --fuente_H1: 2rem;
+    --fuente_H2: 1.5rem;
+    --fuente_H3: 1.3rem;
+    --fuenteBotones: var(--fuente_H3);
+    --fuente_parrado: var(--fuente_BaseTamanyo);
+    
+}
+
 input{
     display: none;
 }
 
-.desplegable{
+ul.desplegable{
     display: none;
 }
 
