@@ -1,6 +1,9 @@
 html{
     font-size: 16px;
 }
+*{
+    box-sizing: border-box;
+}
 
 /* VARIABLES */
 :root{
@@ -12,7 +15,7 @@ html{
     --color_grisFondo: #FAFCFE;
 
     /* Margenes */
-    --margen_paddingGeneral: 50px;
+    --margen_paddingGeneral: 30px;
     --margen_paddingBotones: 8px 10px;
     --margen_separacionSections: 80px;
 
@@ -24,17 +27,37 @@ html{
     --fuente_H3: 1.3rem;
     --fuenteBotones: var(--fuente_H3);
     --fuente_parrado: var(--fuente_BaseTamanyo);
-    
+
 }
+
+/* ****************************************** */
+/* ****************************************** */
 
 input{
     display: none;
 }
 
+label{
+    position: absolute;
+    top: var(--margen_paddingGeneral);
+    left: var(--margen_paddingGeneral);
+    z-index: 5;
+}
+
 ul.desplegable{
     display: none;
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--color_verdeBase);
+    list-style-type: none;
 }
 
 input:checked ~ .desplegable{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+svg{
+    width: 32px;
 }
