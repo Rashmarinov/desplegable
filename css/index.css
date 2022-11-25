@@ -35,17 +35,37 @@ html{
 /* ****************************************** */
 /* ****************************************** */
 
-body{
-    display: flex;
+
+header{
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+}
+
+.logotipo {
+    background-color: var(--color_verdeBase);
     height: 100vh;
+    width: 100vw;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
+
 .logo{
-    width: 50vw;
+    width: 10vw;
+    filter: invert(1);
+    
+}
+.logotxt{
+    font-family: var(--fuente_Base);
+    color: white;
+    font-size: 30px;
 }
 
+
+/* Desplegable */
 input{
     display: none;
 }
@@ -61,12 +81,13 @@ ul.desplegable{
     display: none;
     height: 100vh;
     width: 100vw;
-    background-color: var(--color_verdeBase);
+    background-color: var(--color_verdeClaro);
     list-style-type: none;
     padding: 23vh;
     font-family: var(--fuente_Base);
     font-size: var(--fuente_H3);
     color: var(--color_verdeOscuro);
+    
 }
 
 input:checked ~ .desplegable{
