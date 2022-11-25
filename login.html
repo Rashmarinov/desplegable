@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/index.css" />
+</head>
+<body>
+    <div class="container">
+    <header>
+        <input type="checkbox" id="boton">
+        <label for="boton">
+            <!-- icono hamburguesa -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+        </label>
+
+        <ul class="desplegable">
+            <li>Inicio</li>
+            <li>Servicios</li>
+            <li>Nosotros</li>
+            <li>Contactar</li>
+        </ul>
+
+
+    </header>
+    <!--MAIN-->
+    <main>
+        <!--Títulos-->
+        <section class="titulos">
+             <article class="tituloSuperior">INTELLIGENT <br/> INVESTMENT MANAGEMENT</article>
+             <article class="tituloLogo">
+
+                <img class="logoLogin" src="svg/hexagon-svgrepo-com.svg" alt="">
+
+                <h1 class="logotxtLogin">MarketsFlow</h1>
+                <h4>Your money works</h4>
+             </article>
+        </section>
+       
+        <!--Formulario-->
+        <section class="formularioLogin">
+            <form action="" method="post">
+                <input type="text" name="usuario" id="" placeholder="Login" required>
+                <input type="password" name="password" id="" placeholder="Password" autocomplete="off" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,16}$">
+
+            
+            </form>
+            <!--Enlace-->
+            <a class="discover" href="#">Discover More</a>   
+        </section>
+
+    </main>
+    <!--FOOTER-->
+    <footer>
+        <h5>Authorised and regulated by the Financial Conduct Authority (FCA No.792373)</h5>
+        <h5>&copy; Copyright 2020 Marketsflow</h5>
+        
+
+    </footer>
+
+</div>
+
+</body>
+</html>

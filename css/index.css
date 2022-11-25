@@ -31,11 +31,11 @@ html{
     --fuente_parrado: var(--fuente_BaseTamanyo);
 
 }
-
+.container{
+    font-family: var(--fuente_Base);
+}
 /* ****************************************** */
 /* ****************************************** */
-
-
 header{
     position: absolute;
     z-index: 10;
@@ -52,7 +52,6 @@ header{
     align-items: center;
 }
 
-
 .logo{
     width: 10vw;
     filter: invert(1);
@@ -63,7 +62,6 @@ header{
     color: white;
     font-size: 30px;
 }
-
 
 /* Desplegable */
 input{
@@ -100,5 +98,36 @@ input:checked ~ .desplegable{
 svg{
     width: 32px; 
 }
+/* ****************************************** */
+/* ****************************************** */
+
+.tituloSuperior{
+    color: var(--color_verdeBase);
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: flex-end;
+    font-weight: bold;
+}
 
 
+
+.logotipologin{
+    background-color: var(--color_grisFondo);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.logoLogin{
+    width: 10vw;
+}
+
+.logotxtLogin{
+    font-family: var(--fuente_Base);
+    color: black;
+    font-size: 30px;
+}
