@@ -4,6 +4,7 @@ html{
 *{
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
 }
 
 /* VARIABLES */
@@ -34,6 +35,17 @@ html{
 /* ****************************************** */
 /* ****************************************** */
 
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 50vw;
+}
+
 input{
     display: none;
 }
@@ -53,7 +65,8 @@ ul.desplegable{
     list-style-type: none;
     padding: 23vh;
     font-family: var(--fuente_Base);
-    
+    font-size: var(--fuente_H3);
+    color: var(--color_verdeOscuro);
 }
 
 input:checked ~ .desplegable{
@@ -64,5 +77,7 @@ input:checked ~ .desplegable{
 }
 
 svg{
-    width: 32px;
+    width: 32px; 
 }
+
+
