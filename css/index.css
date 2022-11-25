@@ -81,12 +81,12 @@ ul.desplegable{
     display: none;
     height: 100vh;
     width: 100vw;
-    background-color: var(--color_verdeClaro);
+    background-color: var(--color_verdeOscuro);
     list-style-type: none;
     padding: 23vh;
     font-family: var(--fuente_Base);
     font-size: var(--fuente_H3);
-    color: var(--color_verdeOscuro);
+    color: var(--color_verdeClaro);
     
 }
 
