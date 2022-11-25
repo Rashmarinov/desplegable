@@ -3,6 +3,7 @@ html{
 }
 *{
     box-sizing: border-box;
+    margin: 0;
 }
 
 /* VARIABLES */
@@ -50,12 +51,16 @@ ul.desplegable{
     width: 100vw;
     background-color: var(--color_verdeBase);
     list-style-type: none;
+    padding: 23vh;
+    font-family: var(--fuente_Base);
+    
 }
 
 input:checked ~ .desplegable{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
+    text-align: center;
 }
 
 svg{
