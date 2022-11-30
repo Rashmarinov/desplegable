@@ -161,11 +161,15 @@ svg{
 
 .inputLogin{
     background-color: var(--color_verdeBase);
+}
+.inputLogin::placeholder{
     color: white;
 }
 
 .inputPassword{
     background-color: var(--color_verdeMuyClaro);
+}
+.inputPassword::placeholder{
     color: black;
 }
 
@@ -185,4 +189,9 @@ footer{
 
 .footerBot{
     margin-top: 2vh;
+}
+
+.inicio{
+    text-decoration:none;
+    color: var(--color_verdeClaro);
 }
