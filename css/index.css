@@ -104,6 +104,7 @@ svg{
 
 .tituloSuperior{
     color: var(--color_verdeBase);
+    margin-top: 3vh;
     height: 15vh;
     width: 100vw;
     display: flex;
@@ -145,7 +146,7 @@ svg{
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding-top: 10vh;
+    padding-top: 15vh;
 }
 
 .inputLogin, .inputPassword{
@@ -155,6 +156,7 @@ svg{
     padding: 13px;
     margin: 8px;
     border: 0;
+    font-weight: bold;
 }
 
 .inputLogin{
@@ -172,4 +174,15 @@ svg{
     font-weight: bold;
     text-decoration:none;
     margin-top: 2.5rem;
+}
+
+footer{
+    margin-top: 10vh;
+    text-align: center;
+    font-size: 14px;
+    color: var(--color_gris);
+}
+
+.footerBot{
+    margin-top: 2vh;
 }
