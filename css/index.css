@@ -15,6 +15,7 @@ html{
     --color_verdeClaro: #b3f2e0;
     --color_verdeMuyClaro: #d0f2e9;
     --color_grisFondo: #FAFCFE;
+    --color_gris: #acb4be;
 
     /* Margenes */
     --margen_paddingGeneral: 30px;
@@ -60,11 +61,11 @@ header{
 .logotxt{
     font-family: var(--fuente_Base);
     color: white;
-    font-size: 30px;
+    font-size: var(--fuente_H1);
 }
 
 /* Desplegable */
-input{
+.inputDesplegable{
     display: none;
 }
 
@@ -114,12 +115,14 @@ svg{
 
 
 
-.logotipologin{
+.tituloLogo{
     background-color: var(--color_grisFondo);
+    height: 11vh;
     width: 100vw;
     display: flex;
+    align-items: center;
     justify-content: center;
-    
+    margin-top: 1.15rem;
 }
 
 .logoLogin{
@@ -129,5 +132,44 @@ svg{
 .logotxtLogin{
     font-family: var(--fuente_Base);
     color: black;
-    font-size: 30px;
+    font-size: var(--fuente_H1);  
+}
+
+.logotxtLogin2{
+    color: var(--color_gris);
+    text-align: center;
+
+}
+
+.formularioLogin{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 10vh;
+}
+
+.inputLogin, .inputPassword{
+    border-radius: 50px;
+    text-align: center;
+    width: 90%;
+    padding: 13px;
+    margin: 8px;
+    border: 0;
+}
+
+.inputLogin{
+    background-color: var(--color_verdeBase);
+    color: white;
+}
+
+.inputPassword{
+    background-color: var(--color_verdeMuyClaro);
+    color: black;
+}
+
+.discover{
+    color: var(--color_verdeBase);
+    font-weight: bold;
+    text-decoration:none;
+    margin-top: 2.5rem;
 }
