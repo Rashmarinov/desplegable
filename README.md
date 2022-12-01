@@ -33,3 +33,11 @@ commit - ["AñadidoIndentado"]
 He añadido un container para el login distinto (así no se corrompen los colores), además he establecido el background color para cada container y les he asignado un 100vh para que ocupen toda la pantalla.
 
 commit - ["ContainerFix"]
+
+- Hueco en la parte superior del login: Arreglado.
+
+La clase .tituloSuperior contiene un margin (top) de 3vh que genera un hueco blanco en la parte superior del login bastante horrible. Lo cambio por un padding top 125px y solucionado.
+
+commit - ["MarginFix"]
+
+
