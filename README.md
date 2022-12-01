@@ -39,5 +39,3 @@ commit - ["ContainerFix"]
 La clase .tituloSuperior contiene un margin (top) de 3vh que genera un hueco blanco en la parte superior del login bastante horrible. Lo cambio por un padding top 125px y solucionado.
 
 commit - ["MarginFix"]
-
-
