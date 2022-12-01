@@ -9,7 +9,9 @@ Refactorización By Enrique Estrada
 - ¿Comentarios suficientes?: Encuentro que faltan comentarios en el index.css.
 commit  - ["AñadidoComentarios"]
 
-- ¿Identación?: 
+- ¿Identación?: Mal indentado.
+
+commit - ["AñadidoIndentado"]
 
 - ¿Head correcto?: 
 
