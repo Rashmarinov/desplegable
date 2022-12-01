@@ -33,6 +33,14 @@ html {
 }
 .container {
   font-family: var(--fuente_Base);
+  height: 100vh;
+  background-color: var(--color_verdeBase);
+}
+
+.logincontainer {
+  font-family: var(--fuente_Base);
+  height: 100vh;
+  background-color: var(--color_grisFondo);
 }
 /* ****************************************** */
 /* ****************************************** */
