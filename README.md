@@ -13,20 +13,19 @@ commit  - ["AñadidoComentarios"]
 
 commit - ["AñadidoIndentado"]
 
-- ¿Head correcto?: 
+- ¿Head correcto?: Todo ok.
 
-- ¿Container correcto?:
-
+- ¿Container correcto?: Hay container pero no es flex y no ocupa 100vh.
 
 - Creaciones: 
-1. Desplegable ->
-2. Fondo ->
-3. Login ->
-4. Links Desplegable ->
+1. Desplegable -> Correcto.
+2. Fondo -> Incorrecto (Segmento Blanco en el index).
+3. Login -> Correcto.
+4. Links Desplegable -> Correcto.
 
-- ¿Colores?: 
+- ¿Colores?: Correcto.
 
-- ¿Texto?:
+- ¿Texto?: Correcto.
 
 
 
